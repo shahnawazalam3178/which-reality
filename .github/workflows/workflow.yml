@@ -26,7 +26,8 @@ jobs:
     # Run Owasp Scan  an create Issue of results
     - name: OWASP ZAP Baseline Scan 
       uses: zaproxy/action-baseline@v0.3.0
-      
+      with:
+      target: http://172.17.0.2
       
       
       
